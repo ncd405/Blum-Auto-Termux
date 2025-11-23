@@ -6,6 +6,7 @@ import threading
 import os
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
+# DÒNG DƯỚI ĐÂY LÀ DÒNG CHUẨN NHẤT (KHÔNG CÓ .tl)
 from telethon.functions.messages import RequestWebView
 from urllib.parse import unquote
 from flask import Flask
